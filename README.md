@@ -13,6 +13,21 @@ Local chat CLI for GGUF models using `llama-cpp-python`.
 python app.py
 ```
 
+## Reflex UI
+
+```powershell
+pip install reflex
+reflex run
+```
+
+### UI Features
+
+- Streaming responses with typing indicator
+- Enter to send
+- Stop generation and reset chat
+- Basic memory injection for facts like “X is a Y”
+- Markdown rendering for assistant responses
+
 ## Environment Variables
 
 - `MODEL_PATH` (default: `models/phi-2.Q4_K_M.gguf`)
