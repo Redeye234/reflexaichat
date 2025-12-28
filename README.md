@@ -30,7 +30,7 @@ reflex run
 
 ## Environment Variables
 
-- `MODEL_PATH` (default: `models/phi-2.Q4_K_M.gguf`)
+- `MODEL_PATH`
 - `N_CTX` (default: `2048`)
 - `N_GPU_LAYERS` (default: `20`)
 - `N_THREADS` (default: half of CPU cores)
